@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeachFunctionalityPack.SeachFunctionality">
+      <class name="ShoppingCartPack.ShoppingCartFunctionality">
         <methods>
-          <include name="sortDisplayedSearchResults"/>
+          <include name="navigateToShoppingCartFromSuccessMessage"/>
         </methods>
-      </class> <!-- SeachFunctionalityPack.SeachFunctionality -->
+      </class> <!-- ShoppingCartPack.ShoppingCartFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
