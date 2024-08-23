@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-23T11:47:50 CDT" name="Default suite" finished-at="2024-08-23T11:47:59 CDT" duration-ms="9446">
+  <suite started-at="2024-08-23T15:50:59 CDT" name="Default suite" finished-at="2024-08-23T15:51:07 CDT" duration-ms="8317">
     <groups>
     </groups>
-    <test started-at="2024-08-23T11:47:50 CDT" name="Default test" finished-at="2024-08-23T11:47:59 CDT" duration-ms="9446">
+    <test started-at="2024-08-23T15:50:59 CDT" name="Default test" finished-at="2024-08-23T15:51:07 CDT" duration-ms="8317">
       <class name="ShoppingCartPack.ShoppingCartFunctionality">
-        <test-method signature="navigateToShoppingCartFromSuccessMessage()[pri:0, instance:ShoppingCartPack.ShoppingCartFunctionality@27ce24aa]" started-at="2024-08-23T11:47:50 CDT" name="navigateToShoppingCartFromSuccessMessage" finished-at="2024-08-23T11:47:59 CDT" duration-ms="9430" status="PASS">
+        <test-method signature="viewCartOptionInCardBlock()[pri:0, instance:ShoppingCartPack.ShoppingCartFunctionality@481a996b]" started-at="2024-08-23T15:50:59 CDT" name="viewCartOptionInCardBlock" finished-at="2024-08-23T15:51:07 CDT" duration-ms="8297" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToShoppingCartFromSuccessMessage -->
+        </test-method> <!-- viewCartOptionInCardBlock -->
       </class> <!-- ShoppingCartPack.ShoppingCartFunctionality -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -5,7 +5,7 @@
     <classes>
       <class name="ShoppingCartPack.ShoppingCartFunctionality">
         <methods>
-          <include name="navigateToShoppingCartFromSuccessMessage"/>
+          <include name="viewCartOptionInCardBlock"/>
         </methods>
       </class> <!-- ShoppingCartPack.ShoppingCartFunctionality -->
     </classes>

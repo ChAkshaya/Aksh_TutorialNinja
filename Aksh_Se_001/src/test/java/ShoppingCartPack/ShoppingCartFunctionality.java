@@ -41,5 +41,34 @@ public class ShoppingCartFunctionality {
 		driver.quit();
 		
 	}
+	
+	@Test
+	public void viewCartOptionInCardBlock() throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://tutorialsninja.com/demo/");
+		
+		WebElement searchBox = driver.findElement(By.name("search"));
+		searchBox.sendKeys("iMac");
+		
+		WebElement searchIcon = driver.findElement(By.xpath("//span[@class = 'input-group-btn']/child::button"));
+		searchIcon.click();
+		
+		WebElement addToCartButton = driver.findElement(By.xpath("//span[text()='Add to Cart']"));
+		addToCartButton.click();
+		
+		WebElement topBlackColorCartButton = driver.findElement(By.xpath("//div[@id ='cart']/button"));
+		topBlackColorCartButton.click();
+		
+		WebElement viewCartButton = driver.findElement(By.className("fa-shopping-cart"));
+		viewCartButton.click();
+		
+		String actualShoppingCartPage = driver.getCurrentUrl();
+		String expectedShoppingCartPage = "https://tutorialsninja.com/demo/index.php?route=checkout/cart";
+		
+		Assert.assertEquals(actualShoppingCartPage, expectedShoppingCartPage);
+		
+		driver.quit();
+		
+	}
 
 }
